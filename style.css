@@ -1,0 +1,196 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(3, 3, 34);
+    color: white;
+    width: 100%;
+
+
+}
+
+.container1 {
+    margin-left: 10px;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+#p1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 215px;
+    border-radius: 5px;
+    background-color: red;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 90px;
+    background-color: rgb(67, 16, 139);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 25px;
+    cursor: pointer;
+}
+
+li:hover {
+    color: blueviolet;
+}
+
+.container2 {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cont1 {
+
+    height: 400px;
+    width: 350px;
+    margin: 40px;
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+    margin-top: 200px;
+}
+
+.purple {
+    color: rgb(158, 97, 216);
+}
+
+#element {
+    color: rgb(158, 97, 216);
+}
+
+.cont2 {
+    height: 400px;
+    width: 300px;
+    margin-top: 100px;
+
+}
+
+img {
+    border-radius: 50%;
+}
+
+hr {
+    background: linear-gradient(to right, #333, #fff, #333);
+    border: 0;
+    height: 0.8px;
+    margin: auto;
+}
+
+#p2 {
+    color: gray;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    margin-left: 100px;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+
+
+
+.Thirdsection {
+    background: white;
+    width: 90vw;
+    height: 2px;
+    margin: 35px 0;
+    margin-left: 100px;
+    display: flex;
+}
+
+.Thirdsection .vertical {
+    height: 90px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.box {
+    height: 300px;
+}
+
+#tv {
+
+    margin-top: 91px;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.tv {
+    height: 100px;
+    width: 200px;
+    font-size: 9px;
+    margin-left: 0px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.container4 {
+    background-color: rgba(11, 60, 105, 0.562);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mg {
+    border-radius: 50%;
+}
+
+.container4 {
+    background-color: rgba(72, 72, 212, 0.397);
+    height: 100px;
+    width: 100%;
+    color: #1877f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facebook-logo {
+    color: #17a5d4;
+}
+
+.container4 i {
+    padding-left: 30px;
+    font-size: 30px;
+}
