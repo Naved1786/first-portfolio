@@ -1,0 +1,181 @@
+body {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+    color: white;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(6, 1, 36);
+    background-color: rgb(67, 16, 139);
+    /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+    text-align: center;
+    height: 90px;
+    margin: 0px;
+
+}
+
+h1 {
+    font-size: 30px;
+    color: white;
+    background-color: red;
+    width: 200px;
+    border-radius: 5%;
+    margin-left: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:white;
+    margin-left: 100px;
+    text-align: center;
+    text-align: none;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.nav {
+    margin: 20px;
+    font-size: 22px;
+    color: white;
+
+}
+
+.nav:hover {
+    color: green;
+}
+
+img {
+    border-radius: 50%;
+}
+
+span {
+    font-size: 30px;
+    color: greenyellow;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.box1 {
+    height: 400px;
+    width: 450px;
+    /* border: 2px solid red; */
+    margin: auto;
+}
+
+h3 {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+}
+
+.info1 {}
+
+.info2 {}
+
+h2 {
+    background: rgb(131, 58, 180);
+}
+
+.edu {
+    /* background: burlywood; */
+    /* background: rgb(238, 174, 202); */
+    /* background: linear-gradient(red, orange, yellow, green, blue); */
+    /* background: (red 0%, orange 25%, yellow 50%, green 75%, blue 100%); */
+    /* background: (red 10%, 30%, blue 90%); */
+    background: linear-gradient(90deg in oklab, blue, red);
+    color:white;
+}
+
+p {
+    font-size: 20px;
+}
+
+.container4 {
+    height: 100px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.same {
+    margin: auto;
+    font-size: 22px;
+    height: 50px;
+    width: 400pxx;
+    border: 2px solid green;
+    border-radius: 50%;
+    color: red;
+}
+
+.same:hover {
+    color: white;
+}
+
+.container5 {
+    height: 100px;
+    background-color: blue;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    border: 2px solid rgb(158, 153, 163);
+    box-shadow: #a8eb12;
+}
+
+.icon {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 36px;
+}
+
+.sms {
+    margin: 20px;
+}
+
+.num {
+    height: 100px;
+    /* border:2px solid #a8eb12 ; */
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background: burlywood; */
+    background: linear-gradient(90deg in oklab, blue, red);
+    color: white;
+    height: 20px;
+}
+
+#id {
+    font-size: 16px;
+    margin: 30px;
+    /* border: 2px solid red; */
+}

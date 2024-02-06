@@ -48,6 +48,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 nav ul {
@@ -60,6 +61,7 @@ nav ul {
 nav ul li {
     margin: 25px;
     cursor: pointer;
+    color: white;
 }
 
 li:hover {
