@@ -74,7 +74,7 @@ h1 {
 
 }
 
-img {
+#img1 {
     border-radius: 50%;
 
 }
@@ -222,14 +222,11 @@ color: rgb(85, 165, 85) !important;
     border-radius: 5px;
  }
  #a1{
-    
+   height: 10px;
+   width: 100%;
+   border: 1px solid white;
  }
- .v1{
-    height: 10px;
-    width: 100%;
-    background-color:white;
- }
- .v1:hover{
+ #a1:hover .v1{
    background-color:yellow;
    width: 100%;
    border-radius: 5px;
@@ -245,32 +242,32 @@ color: rgb(85, 165, 85) !important;
  .s2{
    margin-top: 20px;
  }
- .v2{
+ #a2{
     height: 10px;
-    width: 100%;
-    background-color: white;
+    width: 100% ;
+    border: 1px solid white;
 }
-.v2:hover{
+#a2:hover  .v2{
    background-color: yellow;
    width: 75%;
    border-radius: 5px;
 }
-.v3{
+#a3{
    height: 10px;
    width: 100%;
-   background-color: white;
+   border: 1px solid white;
 }
-.v3:hover{
+#a3:hover .v3{
    background-color: yellow;
    width: 50%;
    border-radius: 5px;
 }
-.v4{
+#a4{
    height: 10px;
    width: 100%;
-   background-color: white;
+   border: 1px solid white;
 }
-.v4:hover{
+#a4:hover .v4{
    background-color: yellow;
    width: 40%;
    border-radius: 5px;
@@ -281,12 +278,12 @@ color: rgb(85, 165, 85) !important;
 .s4{
    margin-top: 20px;
 }
-.v5{
+#a5{
    height: 10px;
    width: 100%;
-   background-color: white;
+   border:  1px solid white;
 }
-.v5:hover{
+#a5:hover .v5{
    background-color: yellow;
    border-radius: 5px;
    width: 35%;
@@ -294,12 +291,12 @@ color: rgb(85, 165, 85) !important;
 .s5{
    margin-top: 20px;
 }
-.v6{
+#a6{
    height: 10px;
    width: 100%;
-   background-color: white;
+   border: 1px solid white;
 }
-.v6:hover{
+#a6:hover .v6{
    background-color: yellow;
    border-radius: 5px;
    width: 45%;
@@ -307,12 +304,12 @@ color: rgb(85, 165, 85) !important;
 .s6{
    margin-top: 0%;
 }
-.v7{
+#a7{
    height: 10px;
    width: 100%;
-   background-color: white;
+   border: 1px solid white;
 }
-.v7:hover{
+#a7:hover .v7{
    background-color: yellow;
    border-radius: 5px;
    width: 57%;
@@ -321,12 +318,12 @@ color: rgb(85, 165, 85) !important;
 .s7{
    margin-top: 20px;
 }
-.v8{
+#a8{
    height: 10px;
    width: 100%;
-   background-color: white;
+   border: 1px solid white;
 }
-.v8:hover{
+#a8:hover .v8{
    background-color: yellow;
    border-radius: 5px;
    width: 80%;
@@ -334,13 +331,26 @@ color: rgb(85, 165, 85) !important;
 .s8{
    margin-top: 20px;
 }
-.v9{
+#a9{
    height: 10px;
    width: 100%;
-   background-color: white;
+   border: 1px solid white;
 }
-.v9:hover{
+#a9:hover .v9{
    background-color: yellow;
    border-radius: 5px;
    width: 75%;
+}
+.box4{
+   height: 290px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+}
+#animation{
+   width: 400px;
+   height: 250px;
+   border-radius: 50%;
 }
