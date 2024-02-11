@@ -16,6 +16,9 @@ header{
     text-decoration: none !important;
     /* font-family: 'Open Sans', sans-serif; */
 }
+.same:hover{
+    color: red;
+}
 h2{
     border: 1px solid white;
     width: 80px;

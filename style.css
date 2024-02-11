@@ -198,3 +198,7 @@ h1 {
     padding-left: 30px;
     font-size: 30px;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
