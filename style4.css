@@ -1,0 +1,111 @@
+body{
+    /* background-color: rgb(235, 140, 16); */
+    /* background-color: coral; */
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    /* background-color: #92a8d1; */
+    /* background-color: rgb(201, 76, 76); */
+    /* background-color: rgba(160, 10, 10, 0.548); */
+    background-color: black;
+}
+header{
+    width: 100%;
+    height: 100px;
+    /* background-color: coral; */
+    background-color: rgba(165, 18, 18, 0.3);
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px 2px  rgb(165, 158, 145);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   margin-left: 100px;
+}
+.c1{
+    margin: 20px;
+}
+.c1:hover{
+    /* color: rgba(160, 10, 10, 0.548); */
+    color: rgb(201, 76, 76);
+}
+#logo{
+    height: 60px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 100px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container2{
+    height: 900px;
+    width: 100%;
+    color: aliceblue;
+    /* border: 2px solid red; */
+}
+.h1{
+    margin-left: 100px;
+}
+.container3{
+    height:700px ;
+    width: 1200px;
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 70px;
+}
+.box{
+    height: 300px;
+    width: 1000;
+    margin: auto;
+    /* border: 2px solid red ; */
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 2px;
+    margin-right: 2px;
+    display: flex;
+}
+.b{
+    position: absolute;
+    top: 120px;
+    left: 570px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url('./master-bb.jpg'); /* Image to be displayed on hover */
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    
+
+}
+
+.box1{
+    height: 250px;
+    width: 250px;
+    /* border: 2px solid red; */
+    margin: auto;
+    box-shadow: 2px 2px 2px 5px  rgb(165, 158, 145);
+    display: flex;
+    /* visibility: hidden; */
+    /* overflow: hidden; */
+}
+.box1:hover .b{
+    opacity: 1;
+}
+.gym:hover{
+    background-color:rgba(241, 233, 233, 0.055);
+}
+.container4{
+    height: 500px;
+    width: 100%;
+    border: 2px solid red;
+    margin-top: 50px;
+}

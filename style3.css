@@ -113,17 +113,13 @@ h1{
 .container8{
     height: 550px;
     width: 1300px;
-    /* border: 2px solid black; */
-    margin: 20px;
 }
 .container9{
     height: 230px;
     width: 1200px;
-    /* border: 2px solid rgb(22, 15, 15); */
     margin: auto;
     margin-top: 20px;
     display: flex;
-    /* box-shadow: 4px 4px 8px rgba(216, 54, 54, 0.2); */
 }
 .c1{
     height: 200px;
@@ -131,7 +127,7 @@ h1{
     margin: auto;
     background-color:white;
    background-color:  rgba(246, 247, 246, 255);
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 8px 9px rgba(0, 0, 0, 0.2);
     justify-content: center;
     text-align: center;
     margin: auto;
