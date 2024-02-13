@@ -7,6 +7,8 @@ body{
     /* background-color: rgb(201, 76, 76); */
     /* background-color: rgba(160, 10, 10, 0.548); */
     background-color: black;
+    background-color:wheat;
+    overflow-x: hidden;
 }
 header{
     width: 100%;
@@ -49,6 +51,7 @@ a{
     height: 900px;
     width: 100%;
     color: aliceblue;
+    color: black;
     /* border: 2px solid red; */
 }
 .h1{
@@ -72,7 +75,7 @@ a{
     margin-right: 2px;
     display: flex;
 }
-.b{
+/* .b{
     position: absolute;
     top: 120px;
     left: 570px;
@@ -80,32 +83,267 @@ a{
     height: 150px;
     border-radius: 50%;
     background-image: url('./master-bb.jpg'); /* Image to be displayed on hover */
-    background-size: cover;
+    /* background-size: cover;
     opacity: 0;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease; */
     
 
-}
+/* } */ 
 
 .box1{
     height: 250px;
     width: 250px;
     /* border: 2px solid red; */
     margin: auto;
-    box-shadow: 2px 2px 2px 5px  rgb(165, 158, 145);
+    box-shadow: 2px 2px 2px 5px whitesmoke;
     display: flex;
     /* visibility: hidden; */
     /* overflow: hidden; */
+    position: relative;
+    overflow: hidden;
 }
-.box1:hover .b{
+/* .box1:hover .b{
     opacity: 1;
-}
-.gym:hover{
+} */
+/* .gym-1:hover{
     background-color:rgba(241, 233, 233, 0.055);
+} */
+.gym-2{
+    /* display: none; */
+    position: absolute;
+    left: -100%;
+    transition: all 0.4s ease-in-out;
 }
+.box1:hover .gym-2{
+    display: flex;
+    left: 0%;
+    transition: all 0.4s ease-in-out;
+
+}
+
 .container4{
-    height: 500px;
+    height: 700px;
     width: 100%;
-    border: 2px solid red;
+    background-color: whitesmoke;
+    margin-top: 50px;
+    color: black;
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 20px;
+    width: 100%;
+    /* border: 2px solid  rebeccapurple; */
     margin-top: 50px;
 }
+.small-circle{
+    height: 15px;
+    width: 15px;
+    /* border: 5px solid red; */
+    background-color:rgba(201, 193, 193, 0.884);
+    border-radius: 50%;
+    margin-left: 5px;
+    /* box-shadow: 1px 1px 1px 1px rgb(165, 158, 145); */
+}
+.small-circle1{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-left: 5px;
+   
+    background-color:rgba(201, 193, 193, 0.884);
+}
+.small-circle1:hover{
+    background-color:rgba(153, 142, 142, 0.993);
+}
+.head{
+    margin-left: 70px;
+    margin-top: 50px;
+    padding: 20px;
+}
+#test{
+    margin-top: 10px;
+}
+.small-box{
+    width: 100%;
+    height: 450px;
+    border: 1px soild black;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.527);
+    display: flex;
+}
+.box2{
+    height: 280px;
+    width: 250px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 2px 2px  2px  2px rgb(160, 150, 150);
+    border-radius: 5px;
+}
+.b1{
+    justify-content: center;
+    text-align: center;
+}
+#t1{
+    border-radius: 50%;
+}
+.container5{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    color: black;
+    margin-top: -2%;
+    font-family: "Open Sans", sans-serif;
+
+}
+.blog{
+    /* margin-top: 2%; */
+    height: 100px;
+    width: 100%;
+    margin-left: 100px;
+    /* border: 2px solid rebeccapurple; */
+}
+#camera{
+    padding-top: 20px;
+}
+.container6{
+    height: 400px;
+    width: 1200px;
+    /* border: 1px solid red; */
+    display: flex;
+    margin: auto;
+}
+.c2{
+   height: 360px;
+   width: 300px;
+   /* border: 2px solid black; */
+   margin: auto;
+   color: rgba(0, 0, 0, 0.842);
+   box-shadow: 1px 1px  1px  1px rgb(160, 150, 150);
+   border-radius: 5px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .overlay-text {
+    position: absolute;
+     bottom: 10px;
+    left: 10px; 
+    color: white; 
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  .container7{
+    height: 700px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    color: black;
+  }
+  .container8{
+    margin: 50px;
+  }
+  #Touch{
+    margin-bottom: 0%;
+  }
+  #para{
+    margin-top: 0%;
+    font-size: 16px;
+  }
+  .info{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid red ; */
+  }
+  .info1{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     text-align: center;
+    
+  }
+  .info2{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     text-align: center;
+     margin-top: 100px;
+     margin-bottom: 0%;
+  }
+  input{
+    width: 420px;
+    height: 30px;
+    margin-right: 30px;
+    box-shadow: 1px 1px 1px 1px rgb(201, 197, 197);
+    border-radius: 2px;
+    border: 1px solid white;
+    border: none;
+  }
+  .info4{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     text-align: center;
+     margin-top: 50px;
+     
+  }
+  textarea{
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px 1px rgb(201, 197, 197);
+  }
+  .info5{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  button{
+    height: 33px;
+    width: 150px;
+    /* background-color: rgb(78, 2, 2); */
+    /* background-color: rgb(236, 16, 52); */
+    background-color: rgb(220, 53, 69);
+    color: white;
+    margin-left: 200px;
+    /* box-shadow: 1px 1px 1px 1px rgb(201, 197, 197); */
+    box-shadow:  rgb(229, 229, 229) 0px 0px 6px 2px;
+    border: 1px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+    border-style:  none solid;
+    box-sizing: border-box;
+    border: 0%;
+    
+  }
+  button:hover{
+    color: black;
+    background-color: whitesmoke;
+    
+  }
+  :hover::placeholder{
+    color: red;
+    border-bottom: rgb(220, 53, 69);
+  }
+  input:hover{
+    border-bottom:1px solid red;
+  }
+  textarea:hover{
+     border-bottom: 1px solid red;
+  }
