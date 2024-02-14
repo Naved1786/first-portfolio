@@ -123,7 +123,7 @@ a{
 
 .container4{
     height: 700px;
-    width: 100%;
+    width: 103%;
     background-color: whitesmoke;
     margin-top: 50px;
     color: black;
@@ -193,7 +193,7 @@ a{
     border-radius: 50%;
 }
 .container5{
-    width: 100%;
+    width: 103%;
     height: 600px;
     background-color: white;
     color: black;
@@ -250,10 +250,11 @@ a{
   }
   .container7{
     height: 700px;
-    width: 100%;
-    border: 2px solid black;
+    width: 103%;
+    /* border: 2px solid black; */
     background-color: whitesmoke;
     color: black;
+    margin-top: -4%;
   }
   .container8{
     margin: 50px;
